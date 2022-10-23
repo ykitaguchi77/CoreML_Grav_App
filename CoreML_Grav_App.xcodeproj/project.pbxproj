@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF59CE8B290501FF00777E9E /* CoreML_Grav_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59CE8A290501FF00777E9E /* CoreML_Grav_AppApp.swift */; };
+		BF59CE8D290501FF00777E9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59CE8C290501FF00777E9E /* ContentView.swift */; };
+		BF59CE922905020000777E9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF59CE912905020000777E9E /* Preview Assets.xcassets */; };
+		BF59CE992905021500777E9E /* gravcont_mobilenetv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = BF59CE982905021400777E9E /* gravcont_mobilenetv3.mlmodel */; };
+		BF59CE9B290502D100777E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF59CE9A290502D100777E9E /* Assets.xcassets */; };
+		BF59CE9D290502E600777E9E /* CameraPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59CE9C290502E600777E9E /* CameraPage.swift */; };
+		BF59CE9F290502F100777E9E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59CE9E290502F100777E9E /* ImagePicker.swift */; };
+		BF59CEA1290502F800777E9E /* ResultHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59CEA0290502F800777E9E /* ResultHolder.swift */; };
+		BF59CEA42905030100777E9E /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59CEA22905030100777E9E /* UIImage+Extension.swift */; };
+		BF59CEA52905030100777E9E /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF59CEA32905030100777E9E /* UIImageExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF59CE87290501FF00777E9E /* CoreML_Grav_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreML_Grav_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF59CE8A290501FF00777E9E /* CoreML_Grav_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreML_Grav_AppApp.swift; sourceTree = "<group>"; };
+		BF59CE8C290501FF00777E9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BF59CE912905020000777E9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BF59CE982905021400777E9E /* gravcont_mobilenetv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = gravcont_mobilenetv3.mlmodel; sourceTree = "<group>"; };
+		BF59CE9A290502D100777E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../Downloads/CoreML_cornea_app-main/CoreML_cornea_app/Assets.xcassets"; sourceTree = "<group>"; };
+		BF59CE9C290502E600777E9E /* CameraPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraPage.swift; sourceTree = "<group>"; };
+		BF59CE9E290502F100777E9E /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		BF59CEA0290502F800777E9E /* ResultHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultHolder.swift; sourceTree = "<group>"; };
+		BF59CEA22905030100777E9E /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		BF59CEA32905030100777E9E /* UIImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF59CE84290501FF00777E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF59CE7E290501FF00777E9E = {
+			isa = PBXGroup;
+			children = (
+				BF59CE89290501FF00777E9E /* CoreML_Grav_App */,
+				BF59CE88290501FF00777E9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF59CE88290501FF00777E9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF59CE87290501FF00777E9E /* CoreML_Grav_App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF59CE89290501FF00777E9E /* CoreML_Grav_App */ = {
+			isa = PBXGroup;
+			children = (
+				BF59CE8A290501FF00777E9E /* CoreML_Grav_AppApp.swift */,
+				BF59CE8C290501FF00777E9E /* ContentView.swift */,
+				BF59CE982905021400777E9E /* gravcont_mobilenetv3.mlmodel */,
+				BF59CE9A290502D100777E9E /* Assets.xcassets */,
+				BF59CE9E290502F100777E9E /* ImagePicker.swift */,
+				BF59CE9C290502E600777E9E /* CameraPage.swift */,
+				BF59CEA0290502F800777E9E /* ResultHolder.swift */,
+				BF59CEA22905030100777E9E /* UIImage+Extension.swift */,
+				BF59CEA32905030100777E9E /* UIImageExtension.swift */,
+				BF59CE902905020000777E9E /* Preview Content */,
+			);
+			path = CoreML_Grav_App;
+			sourceTree = "<group>";
+		};
+		BF59CE902905020000777E9E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BF59CE912905020000777E9E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF59CE86290501FF00777E9E /* CoreML_Grav_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF59CE952905020000777E9E /* Build configuration list for PBXNativeTarget "CoreML_Grav_App" */;
+			buildPhases = (
+				BF59CE83290501FF00777E9E /* Sources */,
+				BF59CE84290501FF00777E9E /* Frameworks */,
+				BF59CE85290501FF00777E9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreML_Grav_App;
+			productName = CoreML_Grav_App;
+			productReference = BF59CE87290501FF00777E9E /* CoreML_Grav_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF59CE7F290501FF00777E9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					BF59CE86290501FF00777E9E = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = BF59CE82290501FF00777E9E /* Build configuration list for PBXProject "CoreML_Grav_App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF59CE7E290501FF00777E9E;
+			productRefGroup = BF59CE88290501FF00777E9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF59CE86290501FF00777E9E /* CoreML_Grav_App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF59CE85290501FF00777E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF59CE922905020000777E9E /* Preview Assets.xcassets in Resources */,
+				BF59CE9B290502D100777E9E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF59CE83290501FF00777E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF59CEA1290502F800777E9E /* ResultHolder.swift in Sources */,
+				BF59CEA42905030100777E9E /* UIImage+Extension.swift in Sources */,
+				BF59CE8D290501FF00777E9E /* ContentView.swift in Sources */,
+				BF59CE9D290502E600777E9E /* CameraPage.swift in Sources */,
+				BF59CE9F290502F100777E9E /* ImagePicker.swift in Sources */,
+				BF59CE992905021500777E9E /* gravcont_mobilenetv3.mlmodel in Sources */,
+				BF59CE8B290501FF00777E9E /* CoreML_Grav_AppApp.swift in Sources */,
+				BF59CEA52905030100777E9E /* UIImageExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF59CE932905020000777E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF59CE942905020000777E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF59CE962905020000777E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreML_Grav_App/Preview Content\"";
+				DEVELOPMENT_TEAM = FKLM5SV532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need cameras for accurate classification";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need photo library for save images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yk-gankeisei.CoreML-Grav-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF59CE972905020000777E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CoreML_Grav_App/Preview Content\"";
+				DEVELOPMENT_TEAM = FKLM5SV532;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need cameras for accurate classification";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Need photo library for save images";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "yk-gankeisei.CoreML-Grav-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF59CE82290501FF00777E9E /* Build configuration list for PBXProject "CoreML_Grav_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59CE932905020000777E9E /* Debug */,
+				BF59CE942905020000777E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF59CE952905020000777E9E /* Build configuration list for PBXNativeTarget "CoreML_Grav_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF59CE962905020000777E9E /* Debug */,
+				BF59CE972905020000777E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF59CE7F290501FF00777E9E /* Project object */;
+}
